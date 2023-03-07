@@ -9,6 +9,50 @@ img{
     border: 10px solid rgb(250,250,250);  
 }
 
-.datos{
-    margin-left: 20px;
+section{
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    
 }
+
+.acerca{
+    width: 80%;
+    margin: 40px auto;
+    padding-left: 30px;
+}
+
+.info{
+    float: right;
+    margin: -150px 0 0 0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        margin: -150px 0 0 0px;;
+        padding: 0;
+    }
+
+    .info{
+        text-align: center;
+        margin-left: 0;
+        float: none;
+        margin-top: 50px;
+       
+    }
+
+    .acerca{
+        padding: 0;
+    }
+}
+
