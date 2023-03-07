@@ -1,0 +1,14 @@
+img{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 50%;
+    border-radius: 250px;
+    margin: -150px 0 0 20px;
+    border: 10px solid rgb(250,250,250);  
+}
+
+.datos{
+    margin-left: 20px;
+}

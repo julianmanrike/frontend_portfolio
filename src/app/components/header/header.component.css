@@ -1,0 +1,55 @@
+.header{
+    background-color: rgb(24,24,24);
+    width: 100%;
+    height: 80px;
+}
+
+.nombre{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2em;
+    display: inline-block;
+    padding-left:  20px;
+    margin-top: 12px;
+   
+    
+}
+
+.links{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 25px;
+    
+    float: right;
+    /*padding-right: 10px;*/
+
+}
+
+a{
+    text-decoration: none;  
+    color: aliceblue;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: rgb(89, 82, 210);
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 992px){
+    .links{
+        float:none;
+        display: flex;
+        justify-content: center;
+    }
+    .nombre{
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        height: 130px;
+    }
+
+}
+
+
+

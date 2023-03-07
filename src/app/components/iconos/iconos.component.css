@@ -1,0 +1,19 @@
+svg{
+    width: 45px;
+    color:aliceblue;
+    margin-right: 5px;
+    align-items: center;
+}
+
+svg:hover{
+    color: black;
+    transition: all 0.7s ease-out;
+}
+
+#social{
+    display: block;
+    float:right;
+}
+
+
+
