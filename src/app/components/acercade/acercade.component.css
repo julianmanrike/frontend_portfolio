@@ -5,8 +5,8 @@ img{
     object-fit: cover;
     object-position: 100% 50%;
     border-radius: 250px;
-    margin: -150px 0 0 20px;
-    border: 10px solid rgb(250,250,250);  
+    margin: 70px 0 0 50px;
+    border: 10px solid aliceblue; 
 }
 
 section{
@@ -17,13 +17,15 @@ section{
 
 .acerca{
     width: 80%;
-    margin: 40px auto;
+    margin: 0px auto;
     padding-left: 30px;
+    text-align: end;
+    line-height: 2em;
 }
 
 .info{
     float: right;
-    margin: -150px 0 0 0px;
+    margin: 0px 0 50px 0px;
 }
 
 
@@ -32,14 +34,14 @@ section{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .foto{
         display: flex;
         justify-content: center;
         align-items: center;
     }
     img{
-        margin: -150px 0 0 0px;;
+        margin: 100px 0 0 0px;;
         padding: 0;
     }
 
@@ -47,12 +49,14 @@ section{
         text-align: center;
         margin-left: 0;
         float: none;
-        margin-top: 50px;
+        margin: 80px 0 100px 0;
        
     }
 
     .acerca{
         padding: 0;
+        text-align: center;
+        
     }
 }
 

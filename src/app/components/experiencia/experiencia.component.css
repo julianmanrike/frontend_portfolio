@@ -1,0 +1,46 @@
+.container{
+    background-color: aquamarine; 
+    background-image: url(../../../assets/mesh-549.png);
+    background-size:cover;
+    padding-bottom: 50px;
+}
+
+.row{
+    padding: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0 80px 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(137, 43, 226, 0.727); */
+    padding: 0;
+    gap: 2em;
+}
+li{
+    background-color: rgba(24, 24, 24, 0.7);
+    list-style: none;
+    color: aliceblue;
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+    transition: all 0.6s ease;
+    
+}
+
+li:hover{
+    background-color: rgba(24, 24, 24, 0.9);
+    transition: all 1s ease;
+}
+

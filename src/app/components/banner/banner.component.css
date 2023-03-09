@@ -4,6 +4,7 @@
     width: 100%;
     color:rgb(24, 24, 24);
     background-image: url("../../../assets/mesh-386.png");
+    
     background-size: 100% 600px;
     
 }
@@ -44,7 +45,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .nombre {
       font-size: 5em;
       width: 340px;
