@@ -1,18 +1,18 @@
 svg{
-    width: 45px;
+    width: 35px;
     color:aliceblue;
     margin-right: 5px;
     align-items: center;
 }
 
 svg:hover{
-    color: black;
-    transition: all 0.7s ease-out;
+    color: rgb(89, 82, 210);
+    transition: all 0.7s ease;
 }
 
 #social{
     display: block;
-    float:right;
+    
 }
 
 

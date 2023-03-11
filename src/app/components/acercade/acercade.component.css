@@ -28,7 +28,27 @@ section{
     margin: 0px 0 50px 0px;
 }
 
+.relleno {
+    margin: 0 auto 50px auto;
+    width: 80%;
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.cuadradito{
+    background-color: aqua;
+    background-image: url(../../../assets/mesh-930.png);
+    background-attachment: fixed;
+    background-size: auto;
+    width: 100px;
+    height: 100px;
+    
+
+   
+}
 
 
 

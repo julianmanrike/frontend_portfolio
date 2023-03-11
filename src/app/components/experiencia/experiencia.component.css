@@ -2,7 +2,9 @@
     background-color: aquamarine; 
     background-image: url(../../../assets/mesh-549.png);
     background-size:cover;
+    background-attachment: fixed;
     padding-bottom: 50px;
+  
 }
 
 .row{

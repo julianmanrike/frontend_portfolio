@@ -4,9 +4,10 @@
     width: 100%;
     color:rgb(24, 24, 24);
     background-image: url("../../../assets/mesh-386.png");
-    
-    background-size: 100% 600px;
-    
+    background-attachment: fixed; 
+    scroll-behavior: smooth;
+    background-size: 100% 800px;
+    padding-top: 50px;
 }
 
 
