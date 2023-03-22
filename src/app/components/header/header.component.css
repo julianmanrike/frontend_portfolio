@@ -2,6 +2,9 @@
     background-color: rgb(24,24,24);
     width: 100%;
     height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
 }
 
 .nombre{
@@ -9,7 +12,7 @@
     font-size: 2em;
     display: inline-block;
     padding-left:  20px;
-    margin-top: 12px;
+    /* margin-top: 12px; */
    
     
 }
@@ -17,7 +20,7 @@
 .links{
     font-size: 1.3em;
     font-weight: 600;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     
     float: right;
     /*padding-right: 10px;*/
@@ -40,16 +43,36 @@ a:hover{
         float:none;
         display: flex;
         justify-content: center;
+        align-items: center;
         font-size: 0.8em;
     }
     .nombre{
         display: flex;
         justify-content: center;
+        margin-bottom: 10px;
     }
     .header{
         height: 130px;
     }
+    button{
+        
+        padding: 5px 10px;
+    }
 
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    border:solid rgb(89, 82, 210) 3px;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color:rgb(89, 82, 210) ;
+    border:solid rgb(151, 148, 205) 3px;
+    
 }
 
 

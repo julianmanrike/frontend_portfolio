@@ -47,6 +47,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .titulo{
+        padding-top: 220px;
+    }
     .nombre {
       font-size: 5em;
       width: 340px;

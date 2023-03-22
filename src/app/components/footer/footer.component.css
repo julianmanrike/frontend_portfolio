@@ -13,4 +13,17 @@ p{
     margin: 0;
     font-size: 0.7em;
 }
+svg{
+    width: 40px;
+    float:right;
+    
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: aliceblue;
+    transition: all 0.6s ease;
+}
 
+a:hover{
+    color:rgb(89, 82, 210) ;
+}
